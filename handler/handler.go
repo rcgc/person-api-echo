@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/rcgc/person-api-http-net/model"
+import "github.com/rcgc/person-api-echo/model"
 
 // Storage interface to be implemented by all the handlers that need to interact with memory
 type Storage interface {

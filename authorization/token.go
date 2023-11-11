@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt"
-	"github.com/rcgc/person-api-http-net/model"
+	"github.com/rcgc/person-api-echo/model"
 )
 
 // GenerateToken .

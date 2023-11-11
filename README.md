@@ -3,22 +3,22 @@
 ## Migrated files from person-api-http-net to echo framework version
 
 ### Handler
-- login.login()
+[x] login.login()
 - person:
-    - create()
-    - update()
-    - delete()
-    - getByID()
-    - getAll()
-- response.responseJSON() (borrar)
+    [x] create()
+    [x] update()
+    [x] delete()
+    [x] getByID()
+    [x] getAll()
+[x] response.responseJSON() (borrar)
 - route
-    - RoutePerson()
-    - RouteLogin()
+    [x] RoutePerson()
+    [x] RouteLogin()
 
 ### Middleware
-- Log() (borrar)
-- Authentication()
-- forbidden()
+[x] Log() (borrar)
+[x] Authentication()
+[x] forbidden() (borrar)
 
 ### CMD
-- Register using echo
+[x] Register using echo

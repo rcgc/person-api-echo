@@ -3,7 +3,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/rcgc/person-api-http-net/model"
+	"github.com/rcgc/person-api-echo/model"
 )
 
 // Memory is a map of Persons.
