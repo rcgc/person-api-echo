@@ -48,3 +48,9 @@ done<br>
 
 * Privileges: `ch mod a+x testing.sh`
 * Execution: `./testing.sh`
+
+<br><br>
+
+* Code coverage: `go test -coverprofile=profile.out`
+* Summary of coverage (CLI): `go tool cover -func=profile.out`
+* Visual coverage (HTML): `go tool cover -html=profile.out`
