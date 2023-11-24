@@ -23,7 +23,7 @@ func (p *person) create(c echo.Context) error{
 	err := c.Bind(&data)
 	if err != nil {
 		response := newResponse(Error, "La persona no tiene una estructura correcta", nil)
-		return c.JSON(http.StatusInternalServerError, response)
+		return c.JSON(http.StatusBadRequest, response)
 	}
 
 	err = p.storage.Create(&data)
